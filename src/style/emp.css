@@ -1,0 +1,47 @@
+/* Employee.css */
+.employee-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black; /* Outline color */
+  }
+  
+  .employee-table th {
+    background-color: #c6c2c2; /* Header background color */
+    border: 2px solid black; /* Header border color */
+  }
+  
+  .employee-table td, .employee-table th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black; /* Cell border color */
+  }
+  .delete-button {
+    background-color: rgb(218, 88, 88);
+    border-radius :15px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }  
+  .add-button {
+    background-color: #4d6c8d; /* Blue color */
+    border-radius :15px;
+    text-align: right;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+    margin-left: -20%;
+    margin-top: 0.5em;
+  }
+  .edit-button {
+    background-color: #4d6c8d; /* Blue color */
+    border-radius :15px;
+    text-align: right;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+  }
